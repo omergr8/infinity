@@ -1,0 +1,100 @@
+.landingMain {
+  background: linear-gradient(98.61deg, #130f2670 6.82%, #1e183a69 90.81%),
+    url("../../../../assets/Home/hero/background.png") no-repeat center center
+      fixed;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -17px;
+}
+.landingContent {
+  padding-top: 150px;
+  padding-bottom: 33px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftText p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #61ce70;
+  margin-bottom: -50px;
+}
+.leftText h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  width: 100%;
+  /* line-height: 132px; */
+  color: #ffffff;
+}
+.buyButton {
+  height: 50px !important;
+  background: linear-gradient(180deg, #2f45c5 0%, #1429a3 100%) !important;
+  box-shadow: 0px 42px 43px -27px rgba(40, 61, 188, 0.5) !important;
+  border-radius: 70px !important;
+  color: white !important;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.rowFlex {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.rowFlex2 {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-left: 20px;
+}
+.rowFlex2 div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.rightImage {
+}
+@media only screen and (max-width: 1280px) {
+  .leftText {
+    text-align: center;
+  }
+
+  .rowFlex {
+    justify-content: center;
+  }
+  .rightImage {
+    display: none;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .leftText p {
+    font-weight: 500;
+    font-size: 15px;
+
+    margin-bottom: -50px;
+  }
+  .leftText h2 {
+    font-weight: 500;
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .landingContent {
+    padding-top: 100px;
+  }
+  .leftText p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 60px;
+    margin-bottom: -50px;
+  }
+  .leftText h2 {
+    font-weight: 500;
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,61 @@
+.featureMain {
+  background: linear-gradient(98.61deg, #130f2670 6.82%, #1e183a69 90.81%),
+    url("../../../../assets/Home/features/background.png");
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  /* padding-top: 50px;
+  padding-bottom: 20px; */
+}
+.mainHeading {
+  margin-top: 0px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  /* line-height: 61px; */
+  color: #ffffff;
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.featureContent {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.featureContent h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.featureContent p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.8);
+}
+@media only screen and (max-width: 596px) {
+  .mainHeading {
+    text-align: center;
+  }
+  .mainHeading {
+    width: 100%;
+  }
+  .featureContent {
+    width: 100%;
+  }
+}

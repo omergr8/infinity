@@ -1,0 +1,46 @@
+.faqMain {
+  background: linear-gradient(98.61deg, #130f2670 6.82%, #1e183a69 90.81%),
+    url("../../../../assets/Home/faq/background.png");
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  /* margin-top: -15px; */
+}
+.heading {
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+.container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.accordion {
+  background-color: transparent !important;
+  color: white !important;
+  margin-bottom: 20px !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 10px !important;
+}
+.expandIcon {
+  color: white !important;
+  border: 1px solid white !important;
+  border-radius: 50% !important;
+  padding: 0px !important;
+}
+.accordionSum {
+}
+.accordionDetail {
+  color: #ffffff99 !important;
+}

@@ -1,0 +1,95 @@
+.main {
+  top: 10px;
+  position: absolute;
+  width: 100%;
+  z-index: 999 !important;
+  color: white;
+}
+.header {
+  background-color: transparent;
+  height: 100%;
+}
+.navFlex {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+.logo {
+}
+.navLinks {
+}
+.navLinks ul {
+  text-align: center;
+  /* margin-left: 40px; */
+}
+.navLinks ul li {
+  list-style: none;
+  display: inline-block;
+}
+.navLinks ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  /* padding: 20px; */
+}
+.anchorList2 {
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.buyButton {
+  border-radius: 35px !important;
+  height: 52px !important;
+  background: transparent !important;
+  border-color: #2f45c5 !important;
+  color: white !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.buyButtonDiv2 {
+  text-align: center;
+}
+.hamIcon {
+  display: none;
+}
+@media only screen and (max-width: 1043px) {
+  .buyButtonDiv {
+    display: none;
+  }
+  .navLinks {
+    display: none;
+  }
+  .hamIcon {
+    display: block;
+  }
+}
+
+/* side drawer css */
+.sideDrawer {
+  background: #2b1243 !important;
+  height: 100% !important;
+  color: white !important;
+}
