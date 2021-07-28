@@ -1,4 +1,4 @@
-export const leftFaq = [
+export const faqData = [
   {
     panel: "panel1",
     heading: "How may I buy your token here?",
@@ -23,8 +23,6 @@ export const leftFaq = [
     text: "random text",
     text2: "random text",
   },
-];
-export const rightFaq = [
   {
     panel: "panel5",
     heading: "How may I buy your token here?",

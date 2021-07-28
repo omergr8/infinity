@@ -2,7 +2,7 @@ import classes2 from "./Navbar.module.css";
 import { HashLink } from "react-router-hash-link";
 import Button from "@material-ui/core/Button";
 import SideDrawer from "./Components/SideDrawer";
-import logo from "../../../assets/common/logo.png";
+import logo from "../../../assets/common/logo2.svg";
 const Navbar = () => {
   const buyButton = (
     <Button className={classes2.buyButton} variant="outlined">

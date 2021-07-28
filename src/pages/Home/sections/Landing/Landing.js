@@ -1,7 +1,7 @@
 import classes from "./Landing.module.css";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
-import bot from "../../../../assets/Home/hero/bot.svg";
+import bot from "../../../../assets/Home/hero/bot2.svg";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRedditAlien } from "react-icons/fa";

@@ -1,5 +1,5 @@
 import classes from "./Footer.module.css";
-import logo from "../../../assets/common/footerLogo.svg";
+import logo from "../../../assets/common/footerLogo2.svg";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRedditAlien } from "react-icons/fa";
