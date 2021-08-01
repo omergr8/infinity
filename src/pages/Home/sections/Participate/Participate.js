@@ -62,6 +62,10 @@ const Participate = () => {
                   variant="contained"
                   startIcon={<FaTelegramPlane />}
                   className={classes.joinButton}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open("https://t.me/infinitytok", "_blank");
+                  }}
                 >
                   Join Telegram Group
                 </Button>

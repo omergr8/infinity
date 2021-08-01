@@ -20,21 +20,31 @@ const Navbar = () => {
             <div className={classes2.navLinks}>
               <ul>
                 <li>
-                  <a href="!#">Home</a>
+                  <a href="">Home</a>
                 </li>
                 <li>
-                  <a href="!#">Presale</a>
+                  <HashLink to="/#Tokenomics" className={classes2.anchorList2}>
+                    <p>Tokenomics</p>
+                  </HashLink>
                 </li>
                 <li>
-                  <a href="!#">Tokenomics</a>
+                  <HashLink to="/#Presale" className={classes2.anchorList2}>
+                    <p>Presale</p>
+                  </HashLink>
                 </li>
+
                 <li>
                   <HashLink to="/#roadmap" className={classes2.anchorList2}>
                     <p>Roadmap</p>
                   </HashLink>
                 </li>
                 <li>
-                  <a href="!#">Whitepaper</a>
+                  <a
+                    href="https://www.notion.so/INFINITY-Whitepaper-d6264353e2694badb4cd3b270107908a"
+                    target="_blank"
+                  >
+                    Whitepaper
+                  </a>
                 </li>
               </ul>
             </div>

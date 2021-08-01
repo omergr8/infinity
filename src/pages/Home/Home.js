@@ -11,12 +11,19 @@ const Home = () => {
     <div>
       <Landing />
       <IntroVideo />
-      <Features />
-      <Participate />
+      <Element id="Tokenomics" name="Tokenomics">
+        {" "}
+        <Features id="Tokenomics" />
+      </Element>
+      <Element id="Presale" name="Presale">
+        <Participate id="Presale" />
+      </Element>
       <Element id="roadmap" name="roadmap">
         <Roadmap id="roadmap" />
       </Element>
+
       <Partners />
+
       <Faq />
     </div>
   );
