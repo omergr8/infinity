@@ -1,4 +1,5 @@
 import Landing from "./sections/Landing/Landing";
+import IntroVideo from "./sections/IntroVideo/IntroVideo";
 import Features from "./sections/Features/Features";
 import Participate from "./sections/Participate/Participate";
 import Roadmap from "./sections/Roadmap/Roadmap";
@@ -9,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <Landing />
+      <IntroVideo />
       <Features />
       <Participate />
       <Element id="roadmap" name="roadmap">

@@ -1,0 +1,24 @@
+.introMain {
+  background: linear-gradient(98.61deg, #130f2670 6.82%, #1e183a69 90.81%),
+    url("../../../../assets/Home/faq/background.png");
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  /* margin-top: -15px; */
+}
+.introContainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 800px; */
+}
+.videoPlayer {
+  width: 100%;
+  height: 650px;
+  object-fit: initial;
+}
