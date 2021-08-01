@@ -10,14 +10,23 @@ const Footer = () => {
         <div className={classes.topRow}>
           <img src={logo} alt="logo" width="180px" />
           <div className={classes.logoDiv}>
-            <div>
-              <FaTelegramPlane />
+            <div className={classes.icons}>
+              <a
+                href="https://t.me/infinitytok"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaTelegramPlane />
+              </a>
             </div>
-            <div>
-              <FaTwitter />
-            </div>
-            <div>
-              <FaRedditAlien />
+            <div className={classes.icons}>
+              <a
+                href="https://twitter.com/InfinityTokenO1"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaTwitter />
+              </a>
             </div>
           </div>
         </div>

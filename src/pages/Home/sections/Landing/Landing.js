@@ -21,14 +21,23 @@ const Landing = () => {
                     buy infinity
                   </Button>
                   <div className={classes.rowFlex2}>
-                    <div>
-                      <FaTelegramPlane />
+                    <div className={classes.icons}>
+                      <a
+                        href="https://t.me/infinitytok"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <FaTelegramPlane />
+                      </a>
                     </div>
-                    <div>
-                      <FaTwitter />
-                    </div>
-                    <div>
-                      <FaRedditAlien />
+                    <div className={classes.icons}>
+                      <a
+                        href="https://twitter.com/InfinityTokenO1"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <FaTwitter />
+                      </a>
                     </div>
                   </div>
                 </div>

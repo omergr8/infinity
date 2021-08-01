@@ -30,7 +30,6 @@
   font-weight: 500;
   font-size: 75px;
   width: 100%;
-  /* line-height: 132px; */
   color: #ffffff;
 }
 .buyButton {
@@ -57,7 +56,8 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.rightImage {
+.icons a {
+  color: white !important;
 }
 @media only screen and (max-width: 1280px) {
   .leftText {
