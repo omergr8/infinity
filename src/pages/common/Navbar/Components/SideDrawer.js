@@ -7,6 +7,7 @@ import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
+import { HashLink } from "react-router-hash-link";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import IconButton from "@material-ui/core/IconButton";
@@ -55,16 +56,31 @@ export default function SideDrawer() {
         <ListItem button>
           <ListItemText primary={"Home"} />
         </ListItem>
-        <ListItem button>
-          <ListItemText primary={"Presale"} />
-        </ListItem>
-        <ListItem button>
-          <ListItemText primary={"Tokenomics"} />
-        </ListItem>
-        <ListItem button>
-          <ListItemText primary={"Roadmap"} />
-        </ListItem>
-        <ListItem button>
+        <HashLink to="/#Tokenomics" className={classes2.anchorList}>
+          <ListItem button>
+            <ListItemText primary={"Tokenomics"} />
+          </ListItem>
+        </HashLink>
+        <HashLink to="/#Presale" className={classes2.anchorList}>
+          <ListItem button>
+            <ListItemText primary={"Presale"} />
+          </ListItem>
+        </HashLink>
+        <HashLink to="/#roadmap" className={classes2.anchorList}>
+          <ListItem button>
+            <ListItemText primary={"Roadmap"} />
+          </ListItem>
+        </HashLink>
+        <ListItem
+          button
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(
+              "https://www.notion.so/INFINITY-Whitepaper-d6264353e2694badb4cd3b270107908a",
+              "_blank"
+            );
+          }}
+        >
           <ListItemText primary={"Whitepaper"} />
         </ListItem>
       </List>

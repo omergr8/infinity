@@ -60,6 +60,16 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.anchorList {
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
 .buyButton {
   border-radius: 35px !important;
   height: 52px !important;
